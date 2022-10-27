@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Comfort</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="library.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="audio.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="clock">23:32</div>
+    </div>
+
+    <div class="main-image">
+        <img src="Assets/image/30-309670_undertale-soul-undertale-determination-soul.png" alt="heart">
+        <h1>Determination</h1>
+        <h2 class="title">Placeholder</h2>
+    </div>
+    
+    <audio autoplay id="Myaudio">
+        <source src="Assets/music/01. Summer Walk.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="buttons">
+        <img src="Assets/image/Skip Button.svg" alt="back" onclick="back_audio();">
+        <img src="Assets/image/Pause.svg" alt="Pause" onclick="play_audio();">
+        <img src="Assets/image/Skip Button (1).svg" alt="next" onclick="next_audio();">
+    </div>
+</body>
+</html>
